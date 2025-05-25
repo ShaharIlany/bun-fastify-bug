@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts"
+  },
+  "dependencies": {
+    "@fastify/vite": "^8.0.5",
+    "@fastify/websocket": "^11.0.2",
+    "fastify": "^5.3.2",
+    "pino-pretty": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.10",
+    "@types/node": "^22.14.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^4.0.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0"
+  }
+}
